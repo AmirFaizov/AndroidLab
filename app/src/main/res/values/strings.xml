@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Homeworkbon</string>
+    <string name="app_name">recycler</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="taxi_image">Taxi Image</string>
+    <string name="taxi">Taxi</string>
+    <string name="title">Title: %1$s</string>
 </resources>
