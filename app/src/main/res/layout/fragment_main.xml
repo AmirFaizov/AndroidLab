@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.MainFragment">
+    tools:context=".MainFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_taxi"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/LightGreen"
+        android:id="@+id/recycler_view"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:itemCount="10"
-        tools:listitem="@layout/taxi_item" />
+        tools:itemCount="20"
+        tools:listitem="@layout/first_type_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </FrameLayout>

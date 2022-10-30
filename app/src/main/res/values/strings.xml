@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">recycler</string>
+    <string name="app_name">homework4</string>
+    <string name="icon">icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="taxi_image">Taxi Image</string>
-    <string name="taxi">Taxi</string>
-    <string name="title">Title: %1$s</string>
+
+    <array name="url_array">
+        <item> https://images-cdn.9gag.com/photo/aLgzdqA_700b.jpg</item>
+        <item>"https://media.baamboozle.com/uploads/images/140818/1603820194_76948"</item>
+        <item>"https://www.digitalscrapbook.com/sites/default/files/styles/456_scale/public/s3fs-user-content/graphic-image/user-66801/node-166459/enjoy-the-moment-wooden-favorite-word-art-graphic-element-embellishment-wood-brown.png"</item>
+    </array>
 </resources>
