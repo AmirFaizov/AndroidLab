@@ -1,4 +1,4 @@
-package com.example.homeworkbon
+package ru.kpfu.itis
 
 import org.junit.Test
 
