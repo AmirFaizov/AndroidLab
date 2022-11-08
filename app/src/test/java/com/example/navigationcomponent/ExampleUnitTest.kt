@@ -1,4 +1,4 @@
-package com.example.homeworkbon
+package com.example.navigationcomponent
 
 import org.junit.Test
 
