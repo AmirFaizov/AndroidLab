@@ -3,11 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_graph"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/recyclerFragment">
 
     <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.example.homeworkapp.fragment.MainFragment"
-        android:label="MainFragment"
-        tools:layout="@layout/fragment_main"/>
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.homeworkapp.fragment.RecyclerFragment"
+        android:label="RecyclerFragment"
+        tools:layout="@layout/fragment_recycler">
+        <action
+            android:id="@+id/action_recyclerFragment_to_scannerFragment"
+            app:destination="@id/scannerFragment" />
+        <action
+            android:id="@+id/action_recyclerFragment_to_scannerFragment2"
+            app:destination="@id/scannerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.example.homeworkapp.fragment.ScannerFragment"
+        android:label="ScannerFragment"
+        tools:layout="@layout/fragment_scanner_qr_code">
+        <action
+            android:id="@+id/action_scannerFragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+    </fragment>
 </navigation>
