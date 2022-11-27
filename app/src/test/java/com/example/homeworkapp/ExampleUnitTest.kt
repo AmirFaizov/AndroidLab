@@ -1,4 +1,4 @@
-package com.example.homeworkbon
+package com.example.homeworkapp
 
 import org.junit.Test
 
