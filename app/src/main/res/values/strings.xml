@@ -1,18 +1,36 @@
 <resources>
-    <string name="app_name">Homework App HW 7</string>
-    <string name="qr_code_scanner">QR CODE</string>
-    <string name="qr_scanner">QR Scanner</string>
-    <string name="invalid_qr_code">Invalid QR Code</string>
-    <string name="qr_code_scanner_permission_text">QR Code Scanner requires camera permission to operate</string>
-    <string name="button_sort">Sort</string>
-    <string name="id">ID:</string>
-    <string name="text">EXAMPLE TEXT</string>
-    <string name="name">Name:</string>
-    <string name="qr_code_scanner_camera">Camera permission is needed</string>
-    <string name="go_to_settings">Go To Settings</string>
-    <string name="cancel">Cancel</string>
-    <string name="change_sort">Change sort</string>
-    <string name="sort_by_id">Sort By ID</string>
-    <string name="sort_by_name">Sort By Name</string>
-    <string name="cities">Cities</string>
+    <string name="app_name">hw8_android</string>
+    <string name="cats_photos">Cats photos</string>
+    <string name="start_foreground_service">Start foreground service</string>
+    <string name="start_downloading_cat_image">Start downloading cat image</string>
+    <string name="display_image">Display image</string>
+    <string name="stop_service">Stop service</string>
+    <string name="content"> Cats </string>
+    <string name="channel_name">Cat notification channel</string>
+    <string name="channel_description">Cute cats</string>
+    <string name="service_success">Service started</string>
+    <string name="service_not_running_error">Start service to represent</string>
+    <string name="service_is_running_error">Already to running</string>
+
+    <string name="download_success">Image downloaded</string>
+    <string name="download_fail">Failed</string>
+    <string name="download_error">You need to download an image</string>
+    <string name="cancel_service_success">Service canceled</string>
+
+    <string name="image_url">Image url: %1s</string>
+
+
+    <string name="cat_url1">https://ferma-biz.ru/wp-content/uploads/2022/08/koty-50.jpg</string>
+    <string name="cat_url2">https://kotello.ru/wp-content/uploads/2014/10/1363239476_006.jpg</string>
+    <string name="cat_url3">https://avatars.dzeninfra.ru/get-zen_doc/2369622/pub_5fb4c11e7eb1fe4ba01fffb0_5fb4c130f6872f437e030769/scale_1200</string>
+    <string name="cat_url4">https://yaustal.com/uploads/posts/2022-08/1661445425_i-memy-dlja-nastroenija-prikolnye-5.jpg</string>
+    <string name="cat_url5">https://fikiwiki.com/uploads/posts/2022-02/1644991732_10-fikiwiki-com-p-prikolnie-kartinki-pro-kotov-11.jpg</string>
+
+    <string-array name="cat_array">
+        <item>@string/cat_url1</item>
+        <item>@string/cat_url2</item>
+        <item>@string/cat_url3</item>
+        <item>@string/cat_url4</item>
+        <item>@string/cat_url5</item>
+    </string-array>
 </resources>
